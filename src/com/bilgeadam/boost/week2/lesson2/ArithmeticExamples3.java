@@ -19,7 +19,5 @@ public class ArithmeticExamples3 {
 		System.out.print("Please enter third number: ");
 		number3 = scan.nextInt();
 		System.out.println("A*(B+C) result:"+ number1*(number2+number3));
-
 	}
-
 }
