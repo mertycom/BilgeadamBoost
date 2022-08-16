@@ -1,4 +1,4 @@
-package com.bilgeadam.boost.week2;
+package com.bilgeadam.boost.week2.lesson1;
 
 public class FirstProgram {
 
