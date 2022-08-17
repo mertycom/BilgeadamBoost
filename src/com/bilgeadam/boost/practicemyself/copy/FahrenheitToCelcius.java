@@ -1,4 +1,4 @@
-package com.bilgeadam.boost.week2.lesson2;
+package com.bilgeadam.boost.practicemyself.copy;
 
 import java.util.Scanner;
 
