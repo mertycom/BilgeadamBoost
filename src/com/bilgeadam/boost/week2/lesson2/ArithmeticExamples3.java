@@ -6,7 +6,7 @@ public class ArithmeticExamples3 {
 
 	public static void main(String[] args) {
 		
-		//girilen iki sayıyı bölme
+		//A*(B+C)
 		
 		int number1;
 		int number2;
@@ -19,5 +19,7 @@ public class ArithmeticExamples3 {
 		System.out.print("Please enter third number: ");
 		number3 = scan.nextInt();
 		System.out.println("A*(B+C) result:"+ number1*(number2+number3));
+		
+		scan.close();
 	}
 }

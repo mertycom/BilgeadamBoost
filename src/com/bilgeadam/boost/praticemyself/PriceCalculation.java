@@ -1,4 +1,4 @@
-package com.bilgeadam.boost.practicemyself.copy;
+package com.bilgeadam.boost.praticemyself;
 
 import java.util.Scanner;
 
@@ -29,8 +29,8 @@ public class PriceCalculation {
 		System.out.format("%.2f", rawprice);
 		
 		
+		scan.close();
 		
-
 	}
-
+	
 }

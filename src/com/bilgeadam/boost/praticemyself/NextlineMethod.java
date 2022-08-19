@@ -1,4 +1,4 @@
-package com.bilgeadam.boost.practicemyself.copy;
+package com.bilgeadam.boost.praticemyself;
 
 import java.util.Scanner;
 
@@ -20,6 +20,6 @@ public class NextlineMethod {
 		System.out.println("You are "+age+" years old");
 		System.out.println("I like the "+food+" to :)");
 		
-		
+		scanner.close();
 	}
 }

@@ -17,6 +17,8 @@ public class ArithmeticExamples2 {
 		number2 = scan.nextInt();
 		System.out.println("Divide result:"+ number1/number2);
 		System.out.println("Remaining:"+ number1%number2);
+		
+		scan.close();
 	}
 
 }

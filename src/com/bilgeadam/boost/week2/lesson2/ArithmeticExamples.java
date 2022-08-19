@@ -13,6 +13,8 @@ public class ArithmeticExamples {
 		System.out.print("Please enter a number: ");
 		number = scan.nextInt();
 		System.out.println("Increased by one :"+ ++number);
+		
+		scan.close();
 	}
 
 }
