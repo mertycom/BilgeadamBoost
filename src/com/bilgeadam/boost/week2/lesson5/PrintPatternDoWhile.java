@@ -7,25 +7,23 @@ public class PrintPatternDoWhile {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		String answer ="";
+		String answer = "";
 		do {
-			
 			System.out.print("Number: ");
-			if(sc.hasNextInt()){
+			if (sc.hasNextInt()) {
 				int x = sc.nextInt();
-			
-				for(int i=0; i<x ; i++) {
-					for(int j=i; j>0 ; j--) {
+				for (int i = 0; i < x; i++) {
+					for (int j = i; j > 0; j--) {
 						System.out.print("*");
-			    }
-			    System.out.println("*");
+					}
+					System.out.println("*");
 				}
-			}else {
+			} else {
 				System.out.println("Wrong input!!!");
 				sc.next();
 			}
 			System.out.print("Try Again Y/N ? : ");
-			answer=sc.next();
+			answer = sc.next();
 		} while (answer.equalsIgnoreCase("Y"));
 		sc.close();
 	}

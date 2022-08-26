@@ -24,6 +24,7 @@ public class Login {
 	    }else {
 	    	System.out.println("Wrong entry three times!!!");
 	    }
+	    sc.close();
 	}
 	static void welcome() {
 		System.out.println("Welcome");
